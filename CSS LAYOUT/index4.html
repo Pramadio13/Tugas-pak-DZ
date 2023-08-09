@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 650px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 650px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Bogor</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Pantai air manis</a></li><br>
+      <li><a href="index2.html">Dufan</a></li><br>
+      <li><a href="index3.html">Gunung Bromo</a></li><br>
+    </ul>
+  </nav>
+  
+    <article>
+    <h1>Curug Bidadari</h1>
+    <img src="curug22.jpg" width="50%">
+    <p>Curug Bidadari adalah sebuah objek wisata yang berada di kawasan Sentul Paradise Park. Curug berarti air terjun, lokasinya di kota Bogor dengan akses mudah dari Jakarta. Air terjun Bidadari menawarkan keindahan alami air terjun di daerah perbukitan yang asri.</p>
+    <p>Air terjun ini memiliki ketinggian sekitar 40 - 75 meter dengan lebar 7 meter. Dahulu, terkenal dengan nama Curug Bojong Koneng, sesuai nama desa tempat air terjun ini berada. Airnya bersumber dari kumpulan mata air alami hutan lindung di daerah tersebut.</p>
+    <p>Anda dapat berjalan menyusuri bibir pantai sambil bermain ombak. Pemandangan pantai yang indah sangat cocok dijadikan sebagai spot foto.</p>
+    </article>
+</section>
+<footer>
+  <p>By Pramadio Lutfi Ananda</p>
+</footer>
+
+</body>
+</html>

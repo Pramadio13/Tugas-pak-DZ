@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+      label {
+        font-family: sans-serif;
+      }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: sans-serif;">Biodata Diri</h1>
+    <hr>
+    <form action="/action_page.php">
+        <label for="fname">Nama:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+      </form> <br>
+
+      <form action="/action_page.php">
+        <label for="cars">Kelas:</label>
+        <select id="cars" name="cars">
+          <option value="Kelas">XI RPL 1</option>
+          <option value="Kelas">XI RPL 2</option>
+        </select>
+      </form><br>
+
+      <form action="/action_page.php">
+        <label for="cars">Jurusan:</label>
+        <select id="cars" name="cars">
+          <option value="Jurusan">Rekayasa Perangkat Lunak</option>
+          <option value="Jurusan">Teknik komputer jaringan</option>
+          <option value="Jurusan">Teknik mesin</option>
+          <option value="Jurusan">Teknik sepeda motor</option>
+          <option value="Jurusan">Teknik Logistik</option>
+          <option value="Jurusan">Akuntansi keuangan lembaga</option>
+          <option value="Jurusan">manajemen perkantoran</option>
+          <option value="Jurusan">bisnis ritel</option>
+          <option value="Jurusan">bisnis daring</option>
+          <option value="Jurusan">Kuliner</option>
+          <option value="Jurusan">Desain komunikasi visual</option>
+        </select>
+      </form><br>
+
+      <label for="">Jenis kelamin:</label><br> 
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Laki-Laki</label>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Cewe</label>
+    </form><br>
+        
+    <label for="">Hobby:</label><br>
+    <table>
+      <tr>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="1">Ngoding</label></td>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="p">Design</label></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="1">Futsal</label></td>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="p">Badminton</label></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="1">Tidur</label></td>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="p">Mimpi</label></td>
+      </tr>
+    </table><br>
+    
+
+    <label for="alamat">Deskripsi Diri:</label><br>
+    <textarea id="alamat" placeholder="Aku adalah..."></textarea>
+    <br><br>
+
+    <button>Submit</button>
+
+</body>
+</html>
