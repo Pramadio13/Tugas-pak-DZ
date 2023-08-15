@@ -5,7 +5,7 @@ body{
     background-size: cover;
   }
   .box{
-    width: 450px;
+    width: 476px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
@@ -50,4 +50,46 @@ body{
   .box li a:hover{
     color: #b9b9b9;
   }
-  
+
+  @media screen and (max-width: 500px) {
+    body {
+      width: auto;
+    }
+
+    .box-img { 
+      width: auto;
+    }
+
+    .box{
+      width: auto;
+  }
+
+  .box h1{
+    width: auto;
+}
+
+.box h5{
+  width: auto;
+}
+
+.box p {
+  width: auto;
+}
+
+ul {
+  width: auto;
+}
+
+.box li {
+  width: auto;
+}
+
+.box li a{
+  width: auto;
+}
+
+.box li a:hover {
+  width: auto;
+}
+
+  }

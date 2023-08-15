@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Basic</title>
+    <link rel="stylesheet" a href="style.css">
+</head>
+<body>
+    <h2>1.contoh css color dan background, disini background nya menggunakan color:</h2><br>
+    <h1>CONTOH PEWARNAAN TEKS MENGGUNAKAN COLOR</h1><br>
+    <h1 class="dua">Contoh 2</h1><br>
+    <h1 class="tiga">Contoh 3</h1><br>
+    <hr><br>
+
+    <h2>2.contoh css border </h2>
+    <p class="border">contoh teks dalam border</p><br>
+    <hr><br>
+    
+    <h2>3.contoh penggunaan margin, fungsi  margin untuk memberikan ruang spasi jarak atau ruang kosong di dalam box</h2>
+    <div class="margin">element ini menggunakan margin 25px</div><br>
+    <hr><br>
+
+    <h2>4.fungsi Padding pada CSS digunakan untuk memberikan ruang space disekitar elemen atau konten.</h2>
+    <div class="padding">element ini menggunakan padding 25px</div><br>
+    <hr><br>
+
+    <h2>5.heigh dan width, funsinya untuk mengatur tinggi dan lebar konten, foto ini menggunakan width dan height 100px:</h2>
+    <div class="poto"><img src="ppabang.jpeg" width="100px" height="100px"></div>
+    <hr><br>
+
+    <h2>6.contoh penggunaan font:</h2><br>
+    <h3>1.contoh font menggunakan sans-serif</h3>
+    <h3 class="contoh">2.contoh font menggunakan monospace</h3><br>
+    <hr><br>
+
+    <h2>7.Properti display adalah properti CSS yang penting untuk mengontrol layout:</h2><br>
+    <h5>Menampilkan daftar tautan sebagai menu horizontal:</h5><br>
+<ul>
+  <li><a href="/html/default.asp" target="_blank">HTML</a></li>
+  <li><a href="/css/default.asp" target="_blank">CSS</a></li>
+  <li><a href="/js/default.asp" target="_blank">JavaScript</a></li>
+</ul><br><hr><br>
+
+    <h2>8.CSS max width:</h2><br>
+    <div class="ex1">This div element has width: 500px;</div><br>
+
+<div class="ex2">This div element has max-width: 500px;</div><br>
+
+<p><strong>Tip:</strong> Seret jendela browser ke lebar lebih kecil dari 500px, untuk melihat perbedaannya
+    dua div</p><br>
+    <hr><br>
+
+    <h2>9.Properti Position adalah untuk penentuan posisi yang di gunakan untuk suatu elemen:</h2><br>
+    <h4>position: static;</h4>
+
+<p>Sebuah elemen dengan position: static; tidak diposisikan dengan cara khusus apa pun; itu selalu diposisikan sesuai dengan aliran normal halaman:</p><br>
+<div class="static">
+elemen ini menggunakan position: static;
+</div><br><hr><br>
+
+<h2>10.CSS Float digunakan untuk memposisikan dan memformat konten:</h2><br>
+<button class="float">Button kiri</button>
+<button class="flt">Button kanan</button><br>
+<br><hr><br>
+
+<h2>11.Nav bar di gunakan sebagai menu yang berisi link- link:</h2><br>
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul><br><hr><br>
+
+  <h2>12.Dropdown:</h2>
+<p>Gerakkan mouse ke atas teks di bawah untuk membuka konten dropdown.</p>
+
+<div class="dropdown">
+  <span>arahkan mouse ke konten ini</span>
+  <div class="dropdown-content">
+  <p>Hello World!</p>
+  </div>
+</div><br><hr><br>
+
+<h2>13.Form:</h2>
+<p>contoh form identitas diri</p><br>
+<h2 style="font-family: sans-serif;">Biodata Diri</h2>
+    
+    <form action="/action_page.php">
+        <label for="fname">Nama:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+      </form> <br>
+
+      <form action="/action_page.php">
+        <label for="cars">Kelas:</label>
+        <select id="cars" name="cars">
+          <option value="Kelas">XI RPL 1</option>
+          <option value="Kelas">XI RPL 2</option>
+        </select>
+      </form><br>
+
+      <form action="/action_page.php">
+        <label for="cars">Jurusan:</label>
+        <select id="cars" name="cars">
+          <option value="Jurusan">Rekayasa Perangkat Lunak</option>
+          <option value="Jurusan">Teknik komputer jaringan</option>
+          <option value="Jurusan">Teknik mesin</option>
+          <option value="Jurusan">Teknik sepeda motor</option>
+          <option value="Jurusan">Teknik Logistik</option>
+          <option value="Jurusan">Akuntansi keuangan lembaga</option>
+          <option value="Jurusan">manajemen perkantoran</option>
+          <option value="Jurusan">bisnis ritel</option>
+          <option value="Jurusan">bisnis daring</option>
+          <option value="Jurusan">Kuliner</option>
+          <option value="Jurusan">Desain komunikasi visual</option>
+        </select>
+      </form><br>
+
+      <label for="">Jenis kelamin:</label><br> 
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Laki-Laki</label>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Cewe</label>
+    </form><br>
+        
+    <label for="">Hobby:</label><br>
+    <table>
+      <tr>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="1">Ngoding</label></td>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="p">Design</label></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="1">Futsal</label></td>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="p">Badminton</label></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="1">Tidur</label></td>
+        <td><input type="checkbox" id="hoby" name="hb"><label for="p">Mimpi</label></td>
+      </tr>
+    </table><br>
+    
+
+    <label for="alamat">Deskripsi Diri:</label><br>
+    <textarea id="alamat" placeholder="Aku adalah..."></textarea>
+    <br><br>
+
+    <button>Submit</button><br><br><hr><br>
+
+    <h2>14.Website Layout</h2>
+    <header>
+        <h2>Bukittinggi</h2>
+      </header>
+      
+      <section>
+        <nav>
+          <ul>
+            <li><a href="index2.html">Bromo</a></li><br>
+            <li><a href="index3.html">Dufan</a></li><br>
+            <li><a href="index4.html">Curug</a></li><br>
+          </ul>
+        </nav>
+        
+        <article>
+          <h2>Pantai air manis</h2>
+          <img src="pantai.jpg" width="50%">
+          <p>Pantai Air Manis adalah salah satu tempat wisata yang sangat direkomendasikan untuk dikunjungi bila Anda berada di Kota Padang. Di sini, Anda dapat menikmati pemandangan yang indah dengan ombak yang bergulung-gulung ditemani dengan angin sepoi-sepoi.</p>
+          <p>Ketenangan dan kenyamanan tersebut yang akan membuat Anda betah berlama-lama menghabiskan waktu di sini karena bisa merefresh pikiran.</p>
+          <p>Anda dapat berjalan menyusuri bibir pantai sambil bermain ombak. Pemandangan pantai yang indah sangat cocok dijadikan sebagai spot foto.</p>
+        </article>
+      </section>
+      
+      <footer>
+        <p>By Pramadio Lutfi Ananda</p>
+      </footer>
+
+  
+
+
+
+</body>
+</html>
