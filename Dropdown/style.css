@@ -166,7 +166,7 @@ nav:nth-child(2) ul {
     font-size: 17px;
   }
 
-  .content-btn .tiga {
+  .content-btn .tiga  {
     border-radius: 5px;
     width: 85px;
     height: 45px;
@@ -174,6 +174,11 @@ nav:nth-child(2) ul {
     border: 0;
     font-weight: 600;
     font-size: 17px;
+  
+  }
+
+  .content-btn .tiga a {
+    color: white;
   }
 
   .content-btn button a {
@@ -247,20 +252,16 @@ nav:nth-child(2) ul {
     border-radius: 5px;
     width: 250px;
     height: 45px;
-    border: 5px solid gray;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;    
+    border: 5px solid gray; 
+    background-color: #ffffff;
   }
-  .content-btn .btn-bawah a {
-    color: white;
-  }
+  
   .content-btn .btn-bawah:hover {
     background-color: white;
   }
+
   .content-btn button:hover {
-    background-color: #0e724c;
+    background-color: #ffffff;
   }
+
   
